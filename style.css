@@ -9,6 +9,10 @@
     text-decoration: none;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 :root {
     --font-primary: "Baloo Da 2", serif;
     --font-secudary: "Josefin Slab", serif;
@@ -417,7 +421,7 @@ header {
 }
 
 .card-info button a {
-    color: #ffffff;
+    color: #fff;
 }
 
 .card:hover .card-info {
