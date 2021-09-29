@@ -31,6 +31,7 @@ html {
     flex-direction: column;
     justify-content: space-evenly;
     cursor: pointer;
+    transition: .8s;
 }
 
 .show-menu .hamburguer {
@@ -46,7 +47,7 @@ html {
 }
 
 .show-menu #line1 {
-    transform: rotate(45deg) translate(.3rem, .45rem);
+    transform: rotate(45deg) translate(.3rem, .25rem);
 }
 
 .show-menu #line2 {
@@ -70,6 +71,8 @@ html {
     color: #ffffff;
     font-family: var(--font-action);
     opacity: 0;
+    border-radius: 20px;
+    
 }
 
 .hamburguer span::before {
@@ -149,13 +152,13 @@ header {
 .banner button {
     font-family: var(--font-action);
     color: #000;
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-transform: uppercase;
     letter-spacing: .1rem;
     background: #6a3093;
     background: -webkit-linear-gradient(to right, #a044ff, #6a3093);
     background: linear-gradient(to left, #a044ff, #6a3093);
-    padding: 1rem 3rem;
+    padding: .8rem 2rem;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -190,7 +193,9 @@ header {
     position: fixed;
     top: 0;
     right: -20rem;
-    transition: all 1s;
+    transition: all .8s;
+    z-index: 50;
+
 }
 
 .show-menu .sidebar {
@@ -206,13 +211,15 @@ header {
 
 .menu-item {
     text-align: center;
-    margin-bottom: .5rem;
+    margin-bottom: 2rem;
+    
 }
 
 .menu-link {
     font-family: var(--font-action);
     font-size: 2rem;
     color: #555;
+    font-weight: 500;
 }
 
 .menu-link:hover {
