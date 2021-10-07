@@ -1,10 +1,9 @@
 # portfolio
 
-Portfolio do desenvolvedor
+Meu Portfolio
 
-## Tarefas 
+## Cotém alguns dos principais dos meus projetos
 
-O controle das tarefas desse projeto será realizado no GitHub
 
 ## Icones 
 
