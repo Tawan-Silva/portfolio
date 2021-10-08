@@ -347,6 +347,26 @@ header {
 .conhecimento-img-wrapper img {
     object-fit: cover;
     width: 100%;
+    animation-name: pulinho;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    transition: 10s;
+}
+
+@keyframes pulinho {
+    0% {
+        transform: translateY(0) ;
+        
+    }
+
+    50% {
+        transform: translateY(-9rem);
+    }
+
+    100% {
+        transform: translateY(0) ;
+    }
 }
 
 .projetos {
